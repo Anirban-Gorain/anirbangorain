@@ -1,0 +1,476 @@
+@media (min-width: 200px) and (max-width: 480px)
+{
+
+    /* Header */
+  
+    ._container
+    {
+
+        padding-left: 8px;
+
+    }
+
+    ._profile_Image
+    {
+
+        width: 203px;
+        height: 214px;
+        left: 50%;
+        padding: 4px;
+        top: 60px;
+        border: none;
+        margin-left: -100px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        border-bottom-left-radius: 30%;
+
+    }
+
+    ._bubble_Style
+    {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    ._heading_Text
+    {
+
+        position: relative;
+        top: 250px;
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    ._heading_Paragraph
+    {
+
+        position: relative;
+        padding-bottom: 10px;
+        width: 100%;
+
+    }
+
+    ._explore
+    {
+
+        width: 120px;
+        height: 40px;
+        font-size: 1rem;
+        padding-top: 10px;
+        margin-top: 150px;
+        padding-bottom: 0px;
+
+    }
+
+    /* Project card */
+
+    ._project_Card
+    {
+
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+
+    }
+
+    ._project_Card img
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    ._description
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        height: auto;
+
+    }
+
+    ._project_Card ._metadata
+    {
+
+        position: initial;
+        /* top: 0px;
+        left: 0px; */
+        height: 100%;
+        padding: 20px;
+        background-color: #fff;
+
+    }
+
+    ._metadata h1
+    {
+
+        font-size: 1rem;
+
+    }
+
+    ._metadata ._button
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        border-radius: 10px;
+        background-color: #ffe60028;
+
+    }
+
+    #_skills
+    {
+
+        background: none;
+        background: #bdb2ff;
+
+    }
+
+    #_hobbies
+{
+
+   background-size: cover;
+   background-position: 0px 0px;
+
+}
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+
+    /* Header */
+
+    ._profile_Image
+    {
+
+        width: calc(203px + 80px);
+        height: calc(214px + 80px);
+        left: 50%;
+        padding: 4px;
+        top: 60px;
+        border: none;
+        margin-left: -141px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        border-bottom-left-radius: 30%;
+
+    }
+
+    ._heading_Text
+    {
+
+        position: relative;
+        top: 280px;
+        padding-bottom: 180px;
+        width: 100%;
+    }
+
+    ._heading_Paragraph
+    {
+
+        position: relative;
+        padding-bottom: 100px;
+        width: 100%;
+
+    }
+
+    ._explore
+    {
+
+        display: none;
+
+    }
+
+    /* Project card */
+
+    ._project_Card
+    {
+
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+
+    }
+
+    ._project_Card img
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    ._description
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        height: auto;
+
+    }
+
+    ._project_Card ._metadata
+    {
+
+        position: initial;
+        /* top: 0px;
+        left: 0px; */
+        height: 100%;
+        padding: 20px;
+        background-color: #fff;
+
+    }
+
+    ._metadata h1
+    {
+
+        font-size: 1rem;
+
+    }
+
+    ._metadata ._button
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        border-radius: 10px;
+        background-color: #ffe60028;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+    /* Header */
+
+    ._profile_Image
+    {
+
+        width: 303px;
+        height: 314px;
+        left: 65%;
+        padding: 4px;
+        top: 60px;
+        border: none;
+        margin-left: -60px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        border-bottom-left-radius: 30%;
+
+    }
+
+    ._heading_Text
+    {
+
+        width: calc(100% - 303px - 160px);
+    }
+
+    ._heading_Paragraph
+    {
+
+        padding-top: 80px;
+        width: calc(100% - 303px - 160px);
+
+    }
+
+    /* Project card */
+
+    ._project_Card
+    {
+
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 250px;
+        background-color: #fff;
+
+    }
+
+    ._project_Card img
+    {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* Project card */
+
+    ._project_Card
+    {
+
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+
+    }
+
+    ._project_Card img
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    ._description
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        height: auto;
+
+    }
+
+    ._project_Card ._metadata
+    {
+
+        position: initial;
+        /* top: 0px;
+        left: 0px; */
+        height: 100%;
+        padding: 20px;
+        background-color: #fff;
+
+    }
+
+    ._metadata h1
+    {
+
+        font-size: 1rem;
+
+    }
+
+    ._metadata ._button
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        border-radius: 10px;
+        background-color: #ffe60028;
+
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+
+    /* Project card */
+
+    ._project_Card
+    {
+
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+
+    }
+
+    ._project_Card img
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    ._description
+    {
+
+        /* display: none; */
+
+    }
+
+    ._project_Data
+    {
+
+        height: auto;
+
+    }
+
+    ._project_Card ._metadata
+    {
+
+        position: initial;
+        /* top: 0px;
+        left: 0px; */
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #fff;
+
+    }
+
+    ._metadata h1
+    {
+
+        font-size: 1rem;
+
+    }
+
+    ._metadata span
+    {
+
+        width: 100%;
+        /* background-color: blue; */
+
+    }
+
+    ._project_Data
+    {
+
+        border-radius: 10px;
+        background-color: #ffe60028;
+
+    }
+
+}
+
+@media (min-width: 1366px)
+{
+
+    /* Header */
+
+    #_home
+    {
+
+        height: 100vh;
+
+    }
+
+}
