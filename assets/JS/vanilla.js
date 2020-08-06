@@ -112,7 +112,7 @@ _request.onload = function ()
     {
         // console.log(_fetched[_extracted_Data].created_at.split("T")[0], _fetched);
 
-        if(_fetched[_extracted_Data].id != 282842284 && _fetched[_extracted_Data].id != 281961555)
+        if(_fetched[_extracted_Data].id != 285602063 && _fetched[_extracted_Data].id != 281961555)
         {
 
             _organize = 
